@@ -1,0 +1,12 @@
+<div class="cart-container">
+   <h3>Shopping Cart</h3>
+      <div>
+        <ul >
+        <li class="shopping-cart-elem" ng-repeat="item in shoppingCartList">
+            {{item.name}} {{item.price | currency:"&euro;"}}  <input type="number" min="1" max="item.inStock" value="1"ng-model="item.quantity" name="tQuantity" ng-change="calculateTotal()"/> : {{item.price * item.quantity | currency:"&euro;"}}  <img src="img/trash-can.png" ng-click="removeFromCart(item.id)"  
+        </li>
+      </ul>
+    </div>
+    <hr>
+    Total: {{totalAmount | currency:"&euro;"}};
+</div>

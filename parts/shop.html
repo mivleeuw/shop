@@ -1,0 +1,27 @@
+
+<div class="row">
+    <div>
+      Search: <input ng-model="query">
+      Sort by:
+        <select ng-model="orderProp">
+          <option value="type">Type</option> 
+          <option value="subType">SubType</option> 
+          <option value="name">Alphabetical</option> 
+          <option value="brand">Brand</option>
+          <option value="price">Price</option>            
+        </select>
+    </div>     
+     <div>
+          <button type="button" class="button-up" ng-show="reverse==false" ng-click="setListDirection(true)"></button> 
+          <button type="button" class="button-down" ng-show="reverse==true" ng-click="setListDirection(false)"></button> 
+         <div>
+        <ul >
+        <li class="shop-list-elem" ng-repeat="item in shopList | orderBy: orderProp:reverse | filter:query">
+          <a class="product-name" href="#/items/{{item.id}}">{{item.name}}</a>           
+            <img ng-src="productthumbs/{{item.image}}"></img>  
+          <p class="price-tag">{{item.price | currency:"&euro;"}}</p>    
+        </li>
+      </ul>
+    </div>
+    </div>
+</div>    

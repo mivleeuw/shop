@@ -1,0 +1,8 @@
+<div class="item-container">
+    <div class="item-name">{{curItem.name}} - {{curItem.subType}}</div>
+    <img ng-src="productimages/{{curItem.image}}"></img>  
+    <p class="price-tag">{{curItem.price | currency:"&euro;"}}</p> 
+    <p>{{curItem.description}}</p> 
+    <p>In Stock: {{curItem.inStock}}</p>
+    <div id="buy-button" ng-click=addToCart(curItem.id)>Buy</div>
+</div>

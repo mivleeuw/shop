@@ -1,0 +1,114 @@
+@import "compass";
+@import "mixins/itemShadow";
+@import "mixins/center";
+@import "mixins/borderRadius";
+
+$bg_color: #cccccc;
+$item_bg_color: #ffffff;
+$primary_color: #FF6600;
+$secondary_color: #000000;
+$head_font: fantasy;
+$item_font: Arial;
+
+body{
+   background-color: $bg_color;  
+    font-family: $item_font;
+}
+#titleBar{
+    font-family: $head_font;
+    color: $primary_color;
+    font-size: 30px; 
+    text-align: center;
+    text-decoration: none;   
+}
+#shopping-cart-button{
+    width: 100px;
+    height: 75px;
+    @include float-right; 
+    cursor: pointer;
+    background-image: url("../img/shopping-cart-icon.png");
+    &:hover {
+       background-image: url(../img/shopping-cart-icon-over.png); 
+    }
+}
+.item-name{
+    text-align: center; 
+    margin-top: 20px;
+}
+.shop-list-elem{
+    width: 200px;
+    height: 160px;
+    border: 1px solid #000000;
+    margin: 10px;
+    background-color: $item_bg_color;
+    list-style-type: none;
+    @include item-shadow(5px);
+    a{
+        color: $secondary_color;
+        text-decoration: none;
+    }
+    .product-name{      
+       width: 160px;
+       height: 20px;
+       margin: 5px 5px;       
+    }
+    img{
+     margin: 5px 50px 0px 50px;        
+    }
+     .price-tag{      
+        margin-right: 5px;
+        margin-bottom: 5px;
+        @include float-right; 
+    }
+}
+.button-up{
+    width: 20px;
+    height: 22px;
+    margin: 20px 0px 0px 50px;
+    background-image: url(../img/up-arrow.png);
+    &:hover {
+       background-image: url(../img/up-arrow-over.png); 
+    }
+}
+.button-down{
+    width: 20px;
+    height: 22px;
+    margin: 20px 0px 0px 50px;
+    background-image: url(../img/down-arrow.png);
+    &:hover {
+       background-image: url(../img/down-arrow-over.png); 
+    }
+}
+.item-container{   
+    width: 500px;
+    height: 800px;
+    border: 1px solid $primary_color;
+    background-color: #ffffff;
+    @include item-shadow(10px);
+    img{
+     margin: 5px 50px 0px 50px;        
+    }
+    .price-tag{      
+      margin: 5px 0px 0px 5px; 
+    }
+    p{
+        padding: 5px;
+    }
+    #buy-button{
+        width: 60px;
+        height: 18px;
+        text-align: center;
+        vertical-align: middle;
+        background-color: $primary_color;
+        @include border-radius(5px); 
+        margin: 5px 0px 0px 220px;
+        cursor: pointer;
+        &:hover {
+            background-color: adjust-lightness(red, 20);
+        }
+    }
+}
+.shopping-cart-elem{
+    width: 100%;
+    list-style-type: none;
+}

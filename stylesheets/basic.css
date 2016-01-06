@@ -1,0 +1,138 @@
+/* line 13, ../sass/basic.scss */
+body {
+  background-color: #cccccc;
+  font-family: Arial;
+}
+
+/* line 17, ../sass/basic.scss */
+#titleBar {
+  font-family: fantasy;
+  color: #FF6600;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 24, ../sass/basic.scss */
+#shopping-cart-button {
+  width: 100px;
+  height: 75px;
+  float: right;
+  cursor: pointer;
+  background-image: url("../img/shopping-cart-icon.png");
+}
+/* line 30, ../sass/basic.scss */
+#shopping-cart-button:hover {
+  background-image: url(../img/shopping-cart-icon-over.png);
+}
+
+/* line 34, ../sass/basic.scss */
+.item-name {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 38, ../sass/basic.scss */
+.shop-list-elem {
+  width: 200px;
+  height: 160px;
+  border: 1px solid #000000;
+  margin: 10px;
+  background-color: #ffffff;
+  list-style-type: none;
+  box-shadow: 5px 5px 5px #000;
+  -moz-box-shadow: 5px 5px 5px #000;
+  -webkit-box-shadow: 5px 5px 5px #000;
+}
+/* line 46, ../sass/basic.scss */
+.shop-list-elem a {
+  color: #000000;
+  text-decoration: none;
+}
+/* line 50, ../sass/basic.scss */
+.shop-list-elem .product-name {
+  width: 160px;
+  height: 20px;
+  margin: 5px 5px;
+}
+/* line 55, ../sass/basic.scss */
+.shop-list-elem img {
+  margin: 5px 50px 0px 50px;
+}
+/* line 58, ../sass/basic.scss */
+.shop-list-elem .price-tag {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+/* line 64, ../sass/basic.scss */
+.button-up {
+  width: 20px;
+  height: 22px;
+  margin: 20px 0px 0px 50px;
+  background-image: url(../img/up-arrow.png);
+}
+/* line 69, ../sass/basic.scss */
+.button-up:hover {
+  background-image: url(../img/up-arrow-over.png);
+}
+
+/* line 73, ../sass/basic.scss */
+.button-down {
+  width: 20px;
+  height: 22px;
+  margin: 20px 0px 0px 50px;
+  background-image: url(../img/down-arrow.png);
+}
+/* line 78, ../sass/basic.scss */
+.button-down:hover {
+  background-image: url(../img/down-arrow-over.png);
+}
+
+/* line 82, ../sass/basic.scss */
+.item-container {
+  width: 500px;
+  height: 800px;
+  border: 1px solid #FF6600;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px #000;
+  -moz-box-shadow: 10px 10px 5px #000;
+  -webkit-box-shadow: 10px 10px 5px #000;
+}
+/* line 88, ../sass/basic.scss */
+.item-container img {
+  margin: 5px 50px 0px 50px;
+}
+/* line 91, ../sass/basic.scss */
+.item-container .price-tag {
+  margin: 5px 0px 0px 5px;
+}
+/* line 94, ../sass/basic.scss */
+.item-container p {
+  padding: 5px;
+}
+/* line 97, ../sass/basic.scss */
+.item-container #buy-button {
+  width: 60px;
+  height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #FF6600;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px 0px 0px 220px;
+  cursor: pointer;
+}
+/* line 106, ../sass/basic.scss */
+.item-container #buy-button:hover {
+  background-color: #ff6666;
+}
+
+/* line 111, ../sass/basic.scss */
+.shopping-cart-elem {
+  width: 100%;
+  list-style-type: none;
+}

@@ -1,0 +1,169 @@
+[
+    
+    {
+        "id" : "0",
+        "name": "Danalectro Longhorn",
+        "brand": "Danalectro",
+        "type" : "bass",
+        "subType" : "4string",
+        "price" : "899",
+        "inStock" : "10",
+        "image" : "danalectro_bass.jpg",
+        "description": "First made in 1958, this uniquely shaped short-scale bass with its extreme double cutaways give you ample room to groove and its lightweight laminate construction make it even easier to play for hours on end. Heard on countless recordings, this newest incarnation is still sure to turn heads thanks to the body, headstock design and unique stacked volume/tone knobs."          
+    },
+    {
+        "id" : "1",
+        "name": "Fender Jazz Bass",
+        "brand": "Fender",
+        "type" : "bass",
+        "subType" : "4string",
+        "price" : "1200",
+        "inStock" : "12",
+        "image" : "fender_jazz_bass.jpg",
+        "description": "Professional bassists in all musical genres have relied on the Fender® Jazz Bass® guitar since its 1960 introduction for its rich tone and musical versatility. The Standard Jazz Bass combines the best of old and new, with modern single-coil pickups, shielded body cavities, medium jumbo frets, vintage-style bridge, tinted neck with rosewood or maple fretboard, three-ply parchment pickguard and '70s-style headstock logo."       
+    },
+    {
+        "id" : "2",
+        "name": "Fender Precision Bass",
+        "brand": "Fender",
+        "type" : "bass",
+        "subType" : "4string",
+        "price" : "1150",
+        "inStock" : "8",
+        "image" : "fender_precision_bass.jpg",
+        "description": "The American Standard Precision Bass® is the same best-selling and solidly powerful instrument it has always been, and now it's upgraded with a seismic Fender Custom Shop '60s Precision Bass split single-coil pickup and a striking new Jade Pearl Metallic finish option. It's the latest incarnation of the indestructible workhorse instrument that revolutionized popular music, stronger and more indispensable than ever."       
+    },
+    {
+        "id" : "3",
+        "name": "Rickenbacker Bass",
+        "brand": "Rickenbacker",
+        "type" : "bass",
+        "subType" : "4string",
+        "price" : "1995",
+        "inStock" : "2",
+        "image" : "rickenbacker_bass.jpg",
+        "description": "The Rickenbacker 4003 Bass is famous for its ringing sustain, treble punch, and solid underlying bottom end. It's also famous for its distinctive, elegantly curved body shape, accentuated by a subtle strip of binding, deluxe triangular fretboard inlays, stereo output, neck-thru-body construction, double truss rods, and high output single-coil pickups with wide response range and brilliant clarity. The Vintage Tone Selector activates a capacitor in the treble pickup circuit to emphasize the high end. Pressed in, you get the familiar 4003 sound, pull it out to add bite and crispness. Includes case."       
+    },
+    {
+        "id" : "4",
+        "name": "Ibanez Bass",
+        "brand": "Ibanez",
+        "type" : "bass",
+        "subType" : "5string",
+        "price" : "800",
+        "inStock" : "6",
+        "image" : "ibanez_bass.png",
+        "description": "The 5-string Ibanez BTB675 Electric Bass unleashes unbelievable sound capabilities, thanks to quality woods, superior construction, and cutting-edge electronics. A solid light ash body with a walnut top offers cool looks backed up by rugged construction.The 35 neck scale provides superior articulation-ideal for low tunings. Quad-coil exclusively designed Bartolini MK-2 pickups are balanced for tone and plenty of sizzle."       
+    },
+    {
+        "id" : "5",
+        "name": "Sugi Bass",
+        "brand": "Sugi",
+        "type" : "bass",
+        "subType" : "5string",
+        "price" : "1300",
+        "inStock" : "3",
+        "image" : "sugi_bass.jpg",
+        "description": "The Sugi Nightbreeze bass is a handrafted 5-string bass guitar designed by legendary Guitar Luthier Nick Sugimoto and his team of genius luthiers. Max Whipple had this bass custom made for his playing style for his band, Vas Defrans, debut EP. "       
+    },
+    {
+        "id" : "6",
+        "name": "Gibson Les Paul",
+        "brand": "Gibson",
+        "type" : "guitar",
+        "subType" : "solid body",
+        "price" : "3000",
+        "inStock" : "3",
+        "image" : "gibson_lespaul.jpg",
+        "description": "Today’s Les Paul Custom is based on the model from the mid-1950s, but with several modern appointments. The body is crafted with a hand-carved maple top, which is fitted to a body made from a solid piece of mahogany with strategically routed holes to lessen the weight of the guitar, resulting in a Les Paul with enhanced acoustic qualities and improved resonance."          
+    },
+    {
+        "id" : "7",
+        "name": "Gibson SG",
+        "brand": "Gibson",
+        "type" : "guitar",
+        "subType" : "solid body",
+        "price" : "2300",
+        "inStock" : "5",
+        "image" : "gibson_sg.jpg",
+       "description": "Like the greatest SGs ever made, the SG Standard starts with a foundation of solid mahogany, a tonewood with a long tradition at Gibson. A solid mahogany body (Grade-A beneath the translucent finish options) is crafted in the distinctive, thin asymmetrical dual-cutaway style, with iconic pointed “horns” and beveled edges to enhance playing comfort."          
+    },
+    {
+        "id" : "8",
+        "name": "Fender Stratocaster",
+        "brand": "Fender",
+        "type" : "guitar",
+        "subType" : "solid body",
+        "price" : "1250",
+        "inStock" : "9",
+        "image" : "strat.jpg",
+       "description": "When many people think of an electric guitar, this is the one that leaps to mind. The Stratocaster is an archetypal instrument—among the world's most popular guitars and an elegantly versatile creation that is both a musical and cultural touchstone. At its heart, though, the Stratocaster remains a fantastic tool—with unmistakable sound and timeless design that have made it the first choice among players worldwide, many of whom have used it to create much of the most important music of our time."          
+    },
+     {
+        "id" : "9",
+        "name": "Fender Telecaster",
+        "brand": "Fender",
+        "type" : "guitar",
+        "subType" : "solid body",
+        "price" : "950",
+        "inStock" : "7",
+        "image" : "tele.jpg",
+       "description": "The rich history of Fender guitars begins with the Telecaster. An indispensible workhorse instrument, it endures remarkably unchanged as a marvel of elegantly simple form and solidly utilitarian function. As the world's first successful solid-body electric guitar, the Telecaster revolutionized guitar playing, changed the sound of music and became a signature instrument for guitarists worldwide."          
+    },
+     {
+        "id" : "10",
+        "name": "Gretsch Hollow",
+        "brand": "Gretsch",
+        "type" : "guitar",
+        "subType" : "hollow body",
+        "price" : "650",
+        "inStock" : "2",
+        "image" : "gretsch.jpg",
+       "description": "Made popular by guitar legend and virtuoso Chet Atkins, the Gretsch 6120 is a mighty fine instrument. When you plug-in your Gretsch 6120, you can know that other notable players used the same guitar including Eddie Cochran, Duane Eddy, George Harrison, Setphen Stills, Neil young, and Brian Setzer among many others."          
+    },
+    {
+        "id" : "11",
+        "name": "Ibanez Hollow",
+        "brand": "Ibanez",
+        "type" : "guitar",
+        "subType" : "hollow body",
+        "price" : "550",
+        "inStock" : "8",
+        "image" : "ibanez_hollow.jpg",
+       "description": "Besides its cool looks and retro vibe, it has the VBF70 Vintage Vibrato with ART-1 bridge that adds another dimension of tone and nuance to a hollow body guitar. Matching the AGR’s compact body, the Artcore Mini Humbucking pickups crank out full, warm and tight tones for any gig."          
+    },
+    {
+        "id" : "12",
+        "name": "Martinez Acoustic",
+        "brand": "Martinez",
+        "type" : "guitar",
+        "subType" : "acoustic",
+        "price" : "390",
+        "inStock" : "13",
+        "image" : "martinez.jpg",
+       "description": "This MDC-31 Acoustic-Electric Cutaway Guitar features a Spruce top with Magic-line rosette, Agathis back, sides & neck, and a Nato fingerboard. It has a Nato bridge with compensated saddle, chrome diecast machine heads, and the cutaway at the neck/body joint allows the player easier access to those higher frets for more advanced playing. It also has a Belcat pick-up with built-in tuner and 4 Band EQ so you can adjust your sound from the convenience of the guitar. Finished in Tint Satin."          
+    },
+    {
+        "id" : "13",
+        "name": "Yamaha Acoustic",
+        "brand": "Martinez",
+        "type" : "guitar",
+        "subType" : "acoustic",
+        "price" : "600",
+        "inStock" : "4",
+        "image" : "yamaha.jpg",
+       "description": "The FG750S is a stunning instrument that offers pro features at a reasonable price. Features include a solid sitka spruce top, sycamore back and sides, and die-cast tuners with vintage plastic pegs."          
+    },
+    {
+        "id" : "14",
+        "name": "Rickenbacker Electric",
+        "brand": "Rickenbacker",
+        "type" : "guitar",
+        "subType" : "hollow body",
+        "price" : "2900",
+        "inStock" : "2",
+        "image" : "rickenbacker_guitar.jpg",
+       "description": "Although the last thing the red-hot Beatles needed in early 1964 was a “secret weapon,” that’s exactly what they got when George Harrison received his first Rickenbacker 12-string, in a beautiful Fireglo finish, in February of that year, during the Beatles’ first U.S. tour."          
+    }
+    
+]
